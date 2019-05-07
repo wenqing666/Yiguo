@@ -1,0 +1,35 @@
+body{background: #F7F8F8;}
+.crumbs{ margin:10px 0; margin-left:-10px;}
+.crumbs a{ margin:0 10px;}
+.green{ color:#008842;}
+.content{ margin-bottom:20px;width: 1200px;height: 600px;}
+
+.pic-preview { position: relative; float:left; width:500px; height:600px;}
+.pic-preview .icon{position:absolute;left:10px;top:10px;}
+.pic-big { width: 500px; height: 500px; overflow: hidden; }
+.minImg {z-index: 1; overflow:hidden; position:relative; padding-top:10px; width:500px;}
+.minImg img{ float:left; overflow:hidden; height: 85px; width: 85px; border: 1px solid #bcbcbc; margin-right:16px;}
+.product-info{ width:680px; margin:0 85px 20px 520px;}
+.product-info>h1{ font-size: 26px ;font-weight: normal;}
+.product-info>p{ height:40px; margin-top:5px; color:#777; font-size: 16px;}
+.product-info .pro-price{height:70px; padding:10px 20px; background:#fff; position: relative;}
+.summary-price{height:90px;}
+.pro-price{ float:left; height:70px; width: 423px;}
+.pro-price span{ padding:0 5px; font-size:22px; color:#ff0000; font-style:normal;}
+.pro-content{ border-top:1px solid #e2e2e2; margin-top: 10px; padding-top: 10px;color: #999999 }
+.pro-service{ margin-bottom:20px;}
+.summary-other{height: 390px;}
+.summary-other .left{ float:left; width:529px; padding-right:20px; border-right:1px solid #d9d9d9;height: 216px;}
+.summary-other .dt{ float:left; width:40px; padding:0 10px;}
+.summary-other .dd{ float:left; width: 468px;}
+.pro-amount{ height: 43px; }
+.pro-amount .dt{ line-height:43px;}
+.pro-amount .dd{ float:left; width: 468px;}
+.spinner{position: relative;overflow: hidden;float: left;}
+.spinner input{width: 39px;height:39px;line-height: 41px;font-size: 16px;text-align: center;border: none;-webkit-appearance: none;border: 1px solid #e2e2e2;border-right:none;    }
+.spinner button{display: block;width: 18px;height: 20px;line-height: 20px;text-align: center;float:right;position:relative;border:1px solid #e2e2e2;background-color:white;cursor:pointer;}
+.spinner .sub{top:21px;right:18px;border-top:none;}
+.spinner .add{border-bottom: 1px solid #e2e2e2;height:21px;}
+.spinner{width:76px;}
+.addcart{ float:left; width:187px; height:43px; margin-left:10px;}
+.addcart a{ display:block; width:187px; height:25px; padding:9px 0; text-align:center; font: normal 18px/25px "Microsoft YaHei"; color:#fff; background:#008842;border-radius: 5px;}

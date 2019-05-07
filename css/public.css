@@ -1,0 +1,54 @@
+/*全局样式*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,button,textarea,th,td,p{ margin: 0; padding: 0 }
+body{background:#fff;font-size: 12px;}
+li{list-style: none;}
+a{text-decoration: none;color: #444;}
+.active{color: #008842;}
+i{display: inline-block;vertical-align: middle;}
+img{border: none;}
+.small{width: 85px;height:85px;}
+
+h1,h2,h3,h4,h5,h6{font-size: 12px;}
+
+/*顶部工具栏*/
+.site-nav{width: auto;height: 30px;background: #f7f9f8;position: relative;}
+.site-nav s{ position:absolute; top:13px; right:8px; width:8px; height:4px; margin-left:5px; background: url(../images/header-img.png) no-repeat 0 -18px;}
+.wrap{width: 1200px;margin: 0 auto}
+.fl{float: left;}
+.fr{float: right;}
+.site-nav .fl li{float: left;line-height: 30px;margin-right:10px;}
+.site-nav .city{position: relative;color: #008842;}
+.site-nav .city-sz{float: left;height:16px;}
+.site-nav .city-tit{float: left;}
+.site-nav .city-name{ z-index: 100; position: relative; display:block; float:left; height: 20px; line-height:20px; margin-top:5px; padding:0 20px 5px 5px;color:#008842;}
+.site-nav .city-name s{ top:9px;}
+.site-nav .city-con{display: none;position: absolute;top: 28px;left: 0;width: 482px;border: 2px solid #007f4d;background:#fff;}
+
+.site-nav .fr .myyiguo,.site-nav .fr .mobile{ padding:0;}
+.site-nav .fr .tit a{ display:block; float:left; height: 30px;line-height:30px; padding:0 20px 0 10px;border: solid #f7f9f8; border-width: 0 1px;position: relative;}
+.site-nav .fr li{position: relative;float: right;line-height: 30px;padding: 0 10px;text-align: center;}
+.site-nav .fr i{width: 18px;height:12px;margin-right: 5px;background:url(../images/header-img.png) no-repeat left top;}
+.site-nav .fr .con{ display:none; position:absolute; top:30px; left:0; border: 1px solid #b4c1a3; background:#fff;z-index: 99;}
+.site-nav .pay i{width: 22px;height:15px;background-position: -30px 0;}
+.site-nav .mobile{position: relative;}
+.site-nav .mobile .con{ width:125px; padding:10px; line-height:25px;}
+.site-nav .mobile .item{ margin:5px 0;}
+.site-nav .mobile .item img{ display:block;}
+.site-nav .mobile i{width: 16px;height:16px;background-position: -60px 0;}
+.site-nav .myyiguo i{width: 18px;height:18px;background-position: -90px 0;}
+
+
+/*页尾*/
+.footer{ padding-bottom:20px; border-top:1px solid #e0e0e0}
+.footer .wrap{ margin:50px auto 0;}
+.footer dl{width:190px; float:left; margin-left:50px; display:inline;}
+.footer dl dt{ height:23px; line-height:23px;font-size:14px; text-indent:40px;}
+.footer dl dd{border-left:1px dashed #A8A8A8; padding-left:20px; height:110px; min-height:110px; margin:15px 0 0 13px;}
+.footer dl dd a{color:#575556; line-height:22px;}
+.footer .service{clear:both; text-align:center; padding:60px 0 20px; color:#008842; font-size:14px;}
+.footer .service span{ display:inline-block; padding:0 10px;}
+.footer .copyright{clear:both; color:#717171; text-align:center; line-height:22px; }
+.footer .copyright a{color:#717171;}
+.footer .authentication a{ display:inline-block; position: relative; height:45px; margin:0 10px; zoom: 1;}
+.footer .authentication span{font-size: 12px; color: #001b75; padding: 0; margin: 0; text-decoration: none; top:25px; left: 50px; position: absolute;}
+.footer .authentication img{ height:47px;}

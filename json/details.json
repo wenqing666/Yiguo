@@ -1,0 +1,16 @@
+[
+	{
+		"id":"01",
+		"img":"images/x1.jpg",
+		"minimg1":"images/x1.jpg",
+		"minimg2":"images/x2.jpg",
+		"minimg3":"images/x3.jpg"
+	},
+	{
+		"id":"02",
+		"img":"images/x1.jpg",
+		"minimg1":"images/x1.jpg",
+		"minimg2":"images/x2.jpg",
+		"minimg3":"images/x3.jpg"
+	}
+]

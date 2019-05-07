@@ -1,0 +1,54 @@
+.shopping-btn{background: #008842;}
+.shopping-btn a p{color: #fff;}
+.cart{margin-top: 20px;}
+.cart-none{ border: 1px solid #e3e6e0; background:#fff; line-height:30px; padding: 70px 0;}
+.cart-none p{ height: 280px;font-size: 14px;text-align: center;}
+.cart-none p b{font-size: 14px; font-weight:normal; }
+.cart-none p b a{ margin-left:15px;}
+.cart-none a{ color: #008842;}
+.footer{ margin-top:50px;}
+.cart h2{ background-image: url(../images/bg_cart.png); background-repeat: no-repeat; }
+.cart h2 { font-weight: normal; height: 38px; line-height: 38px; background-color: #fff; background-position: 0 0; border-bottom: 2px solid #05984d; text-indent: -9999em; position: relative }
+.cart .city {position: absolute;  left: 230px;  top: 4px;  text-indent: 0;}
+.cart .city-sz { float:left; height:16px; line-height:16px; margin:7px 0;font-size: 12px;}
+.cart .city-sz i { display: inline-block; background-position: -80px -40px; width: 12px; height: 16px; margin-right: 8px; }
+.cart .city-tit{float:left;font-size: 12px;}
+.cart .city-name{ z-index: 100; position: relative; display:block; float:left; height: 20px; line-height:20px; margin-top:5px; padding:0 5px 5px 5px; _height: 16px; _line-height:16px;_padding:2px 20px 5px 10px; cursor: pointer;}
+.cart .city-name s{ top:9px;}
+.on-shopping {position: absolute; right: 0; top: 0; color: #008842; text-indent: 0;margin-right: 22px;font-size: 12px;}
+
+.cart-alert, .order-alert { border: 1px solid #e3e6e0; border-top: 0; padding: 10px 20px; background-color: #fff; }
+.cart-table { width: 100%; border-collapse: collapse; border: 1px solid #ebebeb; margin-bottom: 10px; }
+.cart-table th { height: 40px; background-color: #f1f1f1; font: 12px/40px Simsun; color: #262626; text-align: center; padding: 0 10px; }
+.cart-table td { border-top: 1px solid #ebebeb; padding: 10px; text-align: center; }
+.cart-table td img { width: 80px; height: 80px; border: 1px solid #ebebeb; position: relative }
+.cart-t-check { width: 20px; }
+.cart-table th.cart-t-check, .cart-table td.cart-t-check { text-align: left; padding-left: 20px; }
+.cart-table th.cart-t-check { width: 120px; }
+.cart-table th.cart-t-check input { margin-right: 20px;  vertical-align: middle; }
+.cart-t-img { width: 80px; position: relative }
+.cart-t-info a { font: 14px/2.4em Simsun; }
+.cart-table td.cart-t-info { text-align: left }
+.bd-title { float: left; height: 20px; color: #fff; font: 12px/20px Simsun; margin-right: 15px; padding: 0 6px; background: #008842; position: relative }
+.bd-promos { float: left; color: #008842; font: 12px/20px Simsun; }
+.cart-t-price { width: 100px; color: #262626;  font-size:14px; line-height:1em;  } 
+.cart-t-num { width: 110px; color: #262626; font: 12px/1em Simsun; }
+.cart-t-total { width: 110px; color: #e93005; font-size:14px; line-height:1em; } 
+.cart-t-spec { width: 110px; color: #262626; font: 12px/1em Simsun; }
+.del { width: 110px; color: #262626; font: 12px/2em Simsun; }
+.cart-t-info a { font: 14px/2.4em Simsun; }
+.cart-table td.cart-t-info { text-align: left }
+.quantity-form { position: relative; overflow: hidden; width: 90px; height: 30px;margin: 0;}
+.quantity-form button{width: 24px; height: 24px;position: absolute;left: 0}
+.quantity-form .add{left: 66px;}
+.itxt { position: absolute; left: 24px; top: 0; border: 1px solid #cacbcb; width: 42px; height: 20px; line-height: 20px; text-align: center; padding: 1px; margin: 0; font-size: 12px; font-family: verdana; color: #333; -webkit-appearance: none; }
+
+/*结算*/
+.cart-footer {height:40px;background-color: #f7f7f7;  font-size:12px; line-height:1em; color: #666; margin-top: 20px; padding: 10px; }
+.cart-footer .wrap { width: 100%; height: 40px;line-height: 40px;}
+.cart-footer label { margin-left: 20px; vertical-align: middle }
+.cart-footer input { margin-right: 5px; }
+.cart-footer span { margin-right: 20px; }
+.cart-footer em { color: #ff5317; font-weight: bold; margin: 0 5px; font-size:18px; font-style:normal; line-height:1em; } 
+.cart-footer a { font: 12px/40px Simsun; margin-left: 20px }
+.cart-footer .btn { font: bold 18px/1em "微软雅黑"; background-color: #ff5317; color: #fff; padding: 10px 20px; display: inline-block; margin-left: 0 }
